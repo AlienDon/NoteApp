@@ -1,10 +1,10 @@
-import { ToDoItem } from './models.js';
+import { ToDoItem } from './models';
 
 export class LocalStorage {
     setLocalStorage(notes_array: Array<ToDoItem>) {
         localStorage.setItem('notes_array', JSON.stringify(notes_array));
     }
-    
+
     getLocalStorage() {
         const localStorageStoredNote = localStorage.getItem('notes_array');
         let result: Array<ToDoItem> = [];

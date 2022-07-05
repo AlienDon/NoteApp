@@ -1,5 +1,5 @@
-import { ToDoItem } from './models.js';
-import { LocalStorage } from './localStorage.js';
+import { ToDoItem } from './models';
+import { LocalStorage } from './localStorage';
 
 
 export class UserInterface {

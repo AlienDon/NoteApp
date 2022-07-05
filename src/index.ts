@@ -1,6 +1,6 @@
-import { LocalStorage } from './localStorage.js';
-import { ToDoItem } from './models.js';
-import { UserInterface } from './ui.js';
+import { LocalStorage } from './localStorage';
+import { ToDoItem } from './models';
+import { UserInterface } from './ui';
 
 const localStorage = new LocalStorage();
 const userInterface = new UserInterface();
